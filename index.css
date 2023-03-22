@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+.country-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.country{
+    background-color: aqua;
+    padding: 24px;
+    border-radius: 24px;
+}
+img{
+    height: 150px;
+    width: 250px;
+}
